@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-void my_putchar(char a)
-{
-    write(1, &a, 1);
-}
+
 
 int my_print_comb()
 {
@@ -26,11 +23,4 @@ int my_print_comb()
         }
     }
     return 0; 
-}
-
-int main(void)
-{
-    my_print_comb();
-
-    return 0;
 }
