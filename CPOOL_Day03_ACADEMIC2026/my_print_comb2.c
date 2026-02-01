@@ -18,7 +18,7 @@ int my_print_comb()
             my_putchar(' ');
             my_putchar((y / 10) + '0');
             my_putchar((y % 10) + '0');
-            if (x != 98 || y !=99)
+            if (x != 98 || y != 99)
             {
                 my_putchar(',');
                 my_putchar(' ');
