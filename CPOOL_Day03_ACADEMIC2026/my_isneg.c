@@ -1,8 +1,5 @@
 #include <stdio.h>
 #include <unistd.h>
-void my_putchar(char a){
-    write(1, &a, 1);
-}
 
 int my_isneg(int n){
     if(n < 0){
@@ -14,10 +11,3 @@ int my_isneg(int n){
 return 0;
 }
 
-int main(void)
-{
-    int nbr = 0;
-    my_isneg(nbr);
-
-    return 0;
-}
