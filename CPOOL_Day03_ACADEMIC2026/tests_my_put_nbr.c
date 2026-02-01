@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-void my_putchar(char a)
-{
-    write(1, &a, 1);
-}
+
 
 int my_put_nbr(int nb)
 {
@@ -22,15 +19,3 @@ int my_put_nbr(int nb)
     return nb;
 }
 
-int main(void)
-{
-
-    my_put_nbr(0);
-    my_putchar('\n');
-    my_put_nbr(21);
-    my_putchar('\n');
-    my_put_nbr(-21);
-    my_putchar('\n');
-
-    return 0;
-}
